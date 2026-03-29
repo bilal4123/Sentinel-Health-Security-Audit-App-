@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="80dp"
+    android:height="80dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Outer Shield -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M50,5 L90,20 L90,55 C90,75 70,90 50,97 C30,90 10,75 10,55 L10,20 Z"/>
+
+    <!-- Inner Shield -->
+    <path
+        android:fillColor="#070B14"
+        android:pathData="M50,14 L82,27 L82,55 C82,71 65,84 50,90 C35,84 18,71 18,55 L18,27 Z"/>
+
+    <!-- Center Bar -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M35,48 L65,48 L65,53 L35,53 Z"/>
+
+    <!-- Top tick -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M47,35 L53,35 L53,65 L47,65 Z"/>
+
+</vector>
