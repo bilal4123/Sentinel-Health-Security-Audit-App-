@@ -1,0 +1,182 @@
+[
+    {
+        "merged": "com.sentinel.app-debug-43:/drawable_bg_score_circle.xml.flat",
+        "source": "com.sentinel.app-main-45:/drawable/bg_score_circle.xml"
+    },
+    {
+        "merged": "com.sentinel.app-debug-43:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.sentinel.app-main-45:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.sentinel.app-debug-43:/layout_activity_app_detail.xml.flat",
+        "source": "com.sentinel.app-main-45:/layout/activity_app_detail.xml"
+    },
+    {
+        "merged": "com.sentinel.app-debug-43:/drawable_bg_glow_ring.xml.flat",
+        "source": "com.sentinel.app-main-45:/drawable/bg_glow_ring.xml"
+    },
+    {
+        "merged": "com.sentinel.app-debug-43:/drawable_bg_badge.xml.flat",
+        "source": "com.sentinel.app-main-45:/drawable/bg_badge.xml"
+    },
+    {
+        "merged": "com.sentinel.app-debug-43:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.sentinel.app-main-45:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.sentinel.app-debug-43:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.sentinel.app-main-45:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.sentinel.app-debug-43:/layout_activity_main.xml.flat",
+        "source": "com.sentinel.app-main-45:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.sentinel.app-debug-43:/layout_activity_container.xml.flat",
+        "source": "com.sentinel.app-main-45:/layout/activity_container.xml"
+    },
+    {
+        "merged": "com.sentinel.app-debug-43:/drawable_bg_header_gradient.xml.flat",
+        "source": "com.sentinel.app-main-45:/drawable/bg_header_gradient.xml"
+    },
+    {
+        "merged": "com.sentinel.app-debug-43:/drawable_bg_cyan_tag.xml.flat",
+        "source": "com.sentinel.app-main-45:/drawable/bg_cyan_tag.xml"
+    },
+    {
+        "merged": "com.sentinel.app-debug-43:/layout_activity_settings.xml.flat",
+        "source": "com.sentinel.app-main-45:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.sentinel.app-debug-43:/layout_fragment_dashboard.xml.flat",
+        "source": "com.sentinel.app-main-45:/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "com.sentinel.app-debug-43:/layout_item_app.xml.flat",
+        "source": "com.sentinel.app-main-45:/layout/item_app.xml"
+    },
+    {
+        "merged": "com.sentinel.app-debug-43:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.sentinel.app-main-45:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.sentinel.app-debug-43:/layout_activity_scan_history.xml.flat",
+        "source": "com.sentinel.app-main-45:/layout/activity_scan_history.xml"
+    },
+    {
+        "merged": "com.sentinel.app-debug-43:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.sentinel.app-main-45:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.sentinel.app-debug-43:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.sentinel.app-main-45:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.sentinel.app-debug-43:/layout_fragment_settings.xml.flat",
+        "source": "com.sentinel.app-main-45:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "com.sentinel.app-debug-43:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.sentinel.app-main-45:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.sentinel.app-debug-43:/layout_activity_splash.xml.flat",
+        "source": "com.sentinel.app-main-45:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.sentinel.app-debug-43:/drawable_ic_search.xml.flat",
+        "source": "com.sentinel.app-main-45:/drawable/ic_search.xml"
+    },
+    {
+        "merged": "com.sentinel.app-debug-43:/xml_data_extraction_rules.xml.flat",
+        "source": "com.sentinel.app-main-45:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.sentinel.app-debug-43:/layout_fragment_history.xml.flat",
+        "source": "com.sentinel.app-main-45:/layout/fragment_history.xml"
+    },
+    {
+        "merged": "com.sentinel.app-debug-43:/drawable_bg_risk_high.xml.flat",
+        "source": "com.sentinel.app-main-45:/drawable/bg_risk_high.xml"
+    },
+    {
+        "merged": "com.sentinel.app-debug-43:/drawable_bg_safe_tag.xml.flat",
+        "source": "com.sentinel.app-main-45:/drawable/bg_safe_tag.xml"
+    },
+    {
+        "merged": "com.sentinel.app-debug-43:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.sentinel.app-main-45:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.sentinel.app-debug-43:/layout_item_permission.xml.flat",
+        "source": "com.sentinel.app-main-45:/layout/item_permission.xml"
+    },
+    {
+        "merged": "com.sentinel.app-debug-43:/xml_backup_rules.xml.flat",
+        "source": "com.sentinel.app-main-45:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.sentinel.app-debug-43:/drawable_bg_cyan_button.xml.flat",
+        "source": "com.sentinel.app-main-45:/drawable/bg_cyan_button.xml"
+    },
+    {
+        "merged": "com.sentinel.app-debug-43:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.sentinel.app-main-45:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.sentinel.app-debug-43:/drawable_ic_shield.xml.flat",
+        "source": "com.sentinel.app-main-45:/drawable/ic_shield.xml"
+    },
+    {
+        "merged": "com.sentinel.app-debug-43:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.sentinel.app-main-45:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.sentinel.app-debug-43:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.sentinel.app-main-45:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.sentinel.app-debug-43:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.sentinel.app-main-45:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.sentinel.app-debug-43:/layout_item_history.xml.flat",
+        "source": "com.sentinel.app-main-45:/layout/item_history.xml"
+    },
+    {
+        "merged": "com.sentinel.app-debug-43:/drawable_ic_avatar.xml.flat",
+        "source": "com.sentinel.app-main-45:/drawable/ic_avatar.xml"
+    },
+    {
+        "merged": "com.sentinel.app-debug-43:/drawable_ic_history.xml.flat",
+        "source": "com.sentinel.app-main-45:/drawable/ic_history.xml"
+    },
+    {
+        "merged": "com.sentinel.app-debug-43:/drawable_ic_dashboard.xml.flat",
+        "source": "com.sentinel.app-main-45:/drawable/ic_dashboard.xml"
+    },
+    {
+        "merged": "com.sentinel.app-debug-43:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.sentinel.app-main-45:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.sentinel.app-debug-43:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.sentinel.app-main-45:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.sentinel.app-debug-43:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.sentinel.app-main-45:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.sentinel.app-debug-43:/drawable_ic_settings.xml.flat",
+        "source": "com.sentinel.app-main-45:/drawable/ic_settings.xml"
+    },
+    {
+        "merged": "com.sentinel.app-debug-43:/drawable_bg_surface.xml.flat",
+        "source": "com.sentinel.app-main-45:/drawable/bg_surface.xml"
+    },
+    {
+        "merged": "com.sentinel.app-debug-43:/drawable_bg_card.xml.flat",
+        "source": "com.sentinel.app-main-45:/drawable/bg_card.xml"
+    }
+]
