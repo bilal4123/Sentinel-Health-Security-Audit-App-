@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_dark"
+    android:padding="16dp">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THREAT INTELLIGENCE"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.15"
+        android:textColor="@color/cyan_primary"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Live CVE Vulnerabilities"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Search Bar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:background="@drawable/bg_surface"
+        android:layout_marginBottom="16dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="8dp"
+        android:gravity="center_vertical">
+
+        <EditText
+            android:id="@+id/et_threat_search"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:hint="Search vulnerabilities..."
+            android:textColorHint="@color/text_secondary"
+            android:textColor="@color/text_primary"
+            android:textSize="13sp"
+            android:background="@null"
+            android:inputType="text"
+            android:imeOptions="actionSearch"/>
+
+        <Button
+            android:id="@+id/btn_threat_search"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="Search"
+            android:textSize="12sp"
+            android:textColor="@color/bg_dark"
+            android:background="@drawable/bg_cyan_button"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"/>
+
+    </LinearLayout>
+
+    <!-- Loading indicator -->
+    <ProgressBar
+        android:id="@+id/progress_threats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"
+        android:layout_marginTop="32dp"/>
+
+    <!-- Error message -->
+    <TextView
+        android:id="@+id/tv_error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/risk_high"
+        android:textSize="13sp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:layout_marginTop="16dp"/>
+
+    <!-- RecyclerView for threats -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_threats"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:paddingBottom="16dp"/>
+
+</LinearLayout>
