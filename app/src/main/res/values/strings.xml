@@ -1,0 +1,157 @@
+<resources>
+    <string name="app_name">Sentinel</string>
+    <string name="default_web_client_id">YOUR_WEB_CLIENT_ID_HERE</string>
+
+    <!-- Notification Channels -->
+    <string name="notification_channel_id">sentinel_security_channel</string>
+    <string name="notification_channel_name">Security Alerts</string>
+    <string name="notification_channel_description">Security alerts and threat notifications</string>
+
+    <!-- Authentication Strings -->
+    <string name="auth_email_hint">Email address</string>
+    <string name="auth_password_hint">Password</string>
+    <string name="auth_sign_in">Sign In</string>
+    <string name="auth_sign_up">Sign Up</string>
+    <string name="auth_google_sign_in">Sign in with Google</string>
+    <string name="auth_forgot_password">Forgot Password?</string>
+    <string name="auth_no_account">Don\'t have an account? Sign Up</string>
+    <string name="auth_have_account">Already have an account? Sign In</string>
+    <string name="auth_reset_email_sent">Password reset email sent</string>
+
+    <!-- Biometric Authentication -->
+    <string name="biometric_title">Security Verification</string>
+    <string name="biometric_subtitle">Authenticate to access sensitive data</string>
+    <string name="biometric_description">Use fingerprint or face unlock</string>
+    <string name="biometric_negative_button">Cancel</string>
+
+    <!-- Notification Strings -->
+    <string name="notification_high_risk_title">⚠️ High Risk App Detected</string>
+    <string name="notification_high_risk_body">%s has a risk score of %d</string>
+    <string name="notification_security_alert_title">Security Alert</string>
+    <string name="notification_threat_detected_body">New threat detected!</string>
+
+    <!-- Dialog Messages -->
+    <string name="dialog_security_check_title">Security Check</string>
+    <string name="dialog_security_check_message">Authenticate to view detailed threat information</string>
+    <string name="dialog_authenticate">Authenticate</string>
+    <string name="dialog_cancel">Cancel</string>
+
+    <!-- Error Messages -->
+    <string name="error_sign_in_failed">Sign in failed</string>
+    <string name="error_sign_up_failed">Sign up failed</string>
+    <string name="error_enter_email">Please enter email</string>
+    <string name="error_enter_password">Please enter password</string>
+    <string name="error_network">Network error. Please check your connection</string>
+    <string name="error_loading_apps">Error loading apps</string>
+
+    <!-- Success Messages -->
+    <string name="success_scan_complete">Scan complete!</string>
+    <string name="success_saved_to_database">Scan results saved to database!</string>
+    <string name="success_deleted">Deleted successfully!</string>
+
+    <!-- Scan History -->
+    <string name="scan_history_title">SCAN HISTORY</string>
+    <string name="scan_history_subtitle">Saved Scan Results</string>
+    <string name="search_hint">Search saved apps...</string>
+    <string name="btn_search">Search</string>
+    <string name="btn_save_scan">+ Save Current Scan to Database</string>
+    <string name="btn_sort_risk">Sort by Risk Score</string>
+    <string name="empty_history">No scan history yet.\nTap the button above to save scan results.</string>
+
+    <!-- Threat Fragment -->
+    <string name="threat_intelligence_title">THREAT INTELLIGENCE</string>
+    <string name="threat_subtitle">Live CVE Vulnerabilities</string>
+    <string name="threat_search_hint">Search vulnerabilities...</string>
+    <string name="btn_threat_search">Search</string>
+
+    <!-- Settings Fragment -->
+    <string name="settings_title">SETTINGS</string>
+    <string name="settings_subtitle">Customize Sentinel</string>
+    <string name="scan_mode_title">SCAN MODE</string>
+    <string name="quick_scan">⚡ Quick Scan — Checks permissions only</string>
+    <string name="deep_scan">🔬 Deep Scan — Full manifest analysis</string>
+    <string name="scheduled_scan">🕐 Scheduled — Runs automatically</string>
+    <string name="theme_title">DISPLAY THEME</string>
+    <string name="dark_theme">🌑 Dark Theme</string>
+    <string name="light_theme">☀️ Light Theme</string>
+    <string name="system_theme">🔄 Follow System</string>
+    <string name="notifications_title">NOTIFICATIONS</string>
+    <string name="threat_alerts">🔴 Threat Alerts</string>
+    <string name="weekly_report">📊 Weekly Report</string>
+    <string name="auto_scan">📲 Auto Scan on Install</string>
+    <string name="about_title">ABOUT</string>
+    <string name="app_version">App Version</string>
+    <string name="build_info">Build</string>
+    <string name="release_2026">Release 2026</string>
+
+    <!-- Splash Screen -->
+    <string name="splash_title">SENTINEL</string>
+    <string name="splash_subtitle">Automated App Security Auditor</string>
+    <string name="device_name_hint">Enter Device Name</string>
+    <string name="btn_start_audit">START AUDIT</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_apps_title">INSTALLED APPS</string>
+    <string name="search_apps_hint">Search apps by name or package...</string>
+    <string name="btn_full_scan">RUN FULL SCAN</string>
+    <string name="threats">Threats</string>
+    <string name="safe">Safe</string>
+    <string name="total_apps">Total Apps</string>
+    <string name="quick_actions">QUICK ACTIONS</string>
+    <string name="recent_alerts">RECENT ALERTS</string>
+    <string name="detected_threats">DETECTED THREAT TAGS</string>
+
+    <!-- App Detail -->
+    <string name="app_detail_title">APP DETAIL</string>
+    <string name="notification_hub">NOTIFICATION HUB</string>
+    <string name="permission_details">PERMISSION DETAILS</string>
+    <string name="cleartext_tag">CLEARTEXT</string>
+    <string name="secure_tag">SECURE</string>
+    <string name="dangerous_status">DANGEROUS</string>
+    <string name="normal_status">NORMAL</string>
+
+    <!-- Risk Levels -->
+    <string name="risk_high">HIGH</string>
+    <string name="risk_medium">MEDIUM</string>
+    <string name="risk_low">LOW</string>
+    <string name="risk_high_risk">HIGH RISK</string>
+
+    <!-- Security Status -->
+    <string name="status_secure">SECURE</string>
+    <string name="status_moderate">MODERATE</string>
+    <string name="status_at_risk">AT RISK</string>
+    <string name="device_protection_active">Device Protection Active</string>
+
+    <!-- Toast Messages -->
+    <string name="toast_welcome">Welcome %s</string>
+    <string name="toast_enter_device_name">Please enter a device name</string>
+    <string name="toast_scanning">Scanning all apps...</string>
+    <string name="toast_found_apps">Found %d installed apps</string>
+    <string name="toast_showing_threats">Showing threats</string>
+    <string name="toast_opening_audit">Opening app audit</string>
+    <string name="toast_total_apps_click">Total apps: %d</string>
+    <string name="toast_high_risk_apps">High risk apps: %d</string>
+    <string name="toast_safe_apps">Safe apps: %d</string>
+    <string name="toast_scan_mode_set">Scan mode set to: %s</string>
+    <string name="toast_theme_set">Theme set to: %s</string>
+    <string name="toast_sorted_by_risk">Sorted by risk score!</string>
+    <string name="toast_delete_error">Error deleting record</string>
+    <string name="toast_network_error">Network error: %s</string>
+    <string name="toast_no_vulnerabilities">No vulnerabilities found</string>
+
+    <!-- Permission Descriptions -->
+    <string name="perm_location_desc">Access precise location from GPS and network sources</string>
+    <string name="perm_camera_desc">Take pictures and record videos</string>
+    <string name="perm_microphone_desc">Record audio through microphone</string>
+    <string name="perm_contacts_desc">Read user\'s contacts data</string>
+    <string name="perm_storage_desc">Write to external storage</string>
+    <string name="perm_default_desc">Access device features and data</string>
+
+    <!-- Threat Tags -->
+    <string name="tag_cleartext">#CLEARTEXT</string>
+    <string name="tag_location">#LOCATION</string>
+    <string name="tag_camera">#CAMERA</string>
+    <string name="tag_read_contacts">#READ_CONTACTS</string>
+    <string name="tag_microphone">#MICROPHONE</string>
+    <string name="tag_storage">#STORAGE</string>
+</resources>
