@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Backgrounds -->
+    <color name="bg_dark">#070B14</color>
+    <color name="bg_card">#0D1526</color>
+    <color name="bg_surface">#111C33</color>
+    <color name="bg_elevated">#162040</color>
+
+    <!-- Cyan/Teal Accents -->
+    <color name="cyan_primary">#00E5FF</color>
+    <color name="cyan_dark">#00B8D4</color>
+    <color name="cyan_glow">#1A4A6B</color>
+
+    <!-- Status Colors -->
+    <color name="risk_high">#FF4757</color>
+    <color name="risk_medium">#FFA502</color>
+    <color name="risk_safe">#2ED573</color>
+    <color name="risk_info">#1E90FF</color>
+
+    <!-- Text -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#6B7FA3</color>
+    <color name="text_accent">#00E5FF</color>
+
+    <!-- Divider -->
+    <color name="divider">#1A2540</color>
+
+    <!-- Badge -->
+    <color name="badge_red">#FF4757</color>
+</resources>

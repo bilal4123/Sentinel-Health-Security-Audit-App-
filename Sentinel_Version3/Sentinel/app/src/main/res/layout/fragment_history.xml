@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_dark"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SCAN HISTORY"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.15"
+        android:textColor="@color/cyan_primary"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saved Scan Results"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Search Bar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:background="@drawable/bg_surface"
+        android:layout_marginBottom="12dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="8dp"
+        android:gravity="center_vertical">
+
+        <EditText
+            android:id="@+id/et_history_search"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:hint="Search saved apps..."
+            android:textColorHint="@color/text_secondary"
+            android:textColor="@color/text_primary"
+            android:textSize="13sp"
+            android:background="@null"
+            android:inputType="text"/>
+
+        <Button
+            android:id="@+id/btn_history_search"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="Search"
+            android:textSize="12sp"
+            android:textColor="@color/bg_dark"
+            android:background="@drawable/bg_cyan_button"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"/>
+
+    </LinearLayout>
+
+    <!-- Add Sample Data Button -->
+    <Button
+        android:id="@+id/btn_add_sample"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="+ Save Current Scan to Database"
+        android:textColor="@color/bg_dark"
+        android:textSize="13sp"
+        android:background="@drawable/bg_cyan_button"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Sort Button -->
+    <Button
+        android:id="@+id/btn_sort_risk"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:text="Sort by Risk Score"
+        android:textColor="@color/text_primary"
+        android:textSize="13sp"
+        android:background="@drawable/bg_surface"
+        android:layout_marginBottom="12dp"/>
+    <Button
+        android:id="@+id/btn_sync_cloud"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:text="☁️ Sync to Cloud"
+        android:textColor="@color/text_primary"
+        android:textSize="13sp"
+        android:background="@drawable/bg_surface"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Empty state -->
+    <TextView
+        android:id="@+id/tv_empty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No scan history yet.\nTap the button above to save scan results."
+        android:textColor="@color/text_secondary"
+        android:textSize="13sp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:layout_marginTop="32dp"/>
+
+    <!-- RecyclerView -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_history_db"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:paddingBottom="16dp"/>
+
+</LinearLayout>
